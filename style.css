@@ -1,0 +1,105 @@
+body,
+main,
+.content,
+.col-left,
+.col-right,
+footer {
+    background-color: black !important;
+    color: white !important;
+    font-family: 'AR One Sans', sans-serif;
+}
+div {
+    background-color: black !important;
+    color: red ;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 60px ;
+    
+}
+
+h1{
+color: white !important;
+font-size: 50PX !important;
+}
+
+
+body{
+    color: white !important;
+    font-size: 30px !important;
+    }
+
+
+p{
+    color: white !important;
+    font-size: 25px !important;
+    }
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for rounded, light gray box */
+.container-box {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    main img {
+        max-width: 80%;
+    }
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(43, 0, 0);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05); /* Scale 5% larger on hover */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+footer {
+    background: linear-gradient(to bottom, black, #333333); /* Gradient from black to dark gray */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background: linear-gradient(to top, black, #333333); /* Gradient from black to dark gray */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
